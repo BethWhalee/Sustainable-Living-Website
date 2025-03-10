@@ -1,0 +1,139 @@
+
+/* Name: Majanga Bethwel
+   Date: March 9, 2025 */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #0a5d00;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 42px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+header h1 {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #007000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Content Wrapper */
+#content-wrapper {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Main Content */
+main {
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Sidebar */
+aside {
+  width: 25%;
+  padding: 15px;
+  background-color: #e6ffe6;
+  border: 1px solid #008000;
+}
+
+aside h2 {
+  color: #004d00;
+}
+
+aside section {
+  margin-bottom: 15px;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  color: #004d00;
+  font-weight: bold;
+}
+
+/* Project Sections */
+section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+}
+
+section h2 {
+  background-color: #008000;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+section a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #008000;
+}
+
+section img {
+  border: 2px solid #008000;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+section img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer (if needed) */
+footer {
+  background-color: #004d00;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
